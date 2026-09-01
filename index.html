@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acara 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        main {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  shadow fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Kota Makassar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="bi bi-house-fill"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deskripsi"> <i class="bi bi-journal-text"></i>Deskripsi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#penduduk"> <i class="bi bi-people-fill"></i> Penduduk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kecamatan"> <i class="bi bi-list-task"></i> Kecamatan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sumber"><i class="bi bi-link-45deg"></i> Sumber</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gambar"> <i class="bi bi-camera-fill"></i> Gambar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#infoModal"> 
+                                <i class="bi bi-info-circle-fill"></i> </i> info</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!--Judul-->
+        <div class="alert alert-primary shadow text-center" role="alert">
+            <h2>Kota Makassar</h2>
+            <h5>Sulawesi Selatan</h5>
+        </div>
+
+        <!--Deskripsi-->
+        <div class="card shadow" id="deskripsi">
+            <div class="card-header">
+                <h6><i class="bi bi-journal-text"> </i>Deskripsi</h6>
+            </div>
+            <div class="card-body">
+                <p>Kota Makassar (Lontara: ᨀᨚᨈ ᨆᨀᨔᨑ, transliterasi: Kota Mangkasara'), sebelumnya bernama Ujung Pandang
+                    (nama
+                    benteng suku makassar),adalah ibu kota Provinsi Sulawesi Selatan, Indonesia.Sebelumnya, kota yang
+                    sejak 1971 hingga 1999 dikenal secara resmi sebagai Ujung Pandang ini merupakan
+                    kota
+                    terbesar di wilayah Indonesia Timur dan pusat kota terbesar ketujuh di Indonesia dari jumlah
+                    penduduk
+                    setelah Jakarta, Surabaya, Medan, Bandung, Semarang, dan Palembang. Kota ini terletak di pesisir
+                    barat
+                    daya
+                    pulau Sulawesi, menghadap Selat Makassar. Sebagian besar penduduk yang mendiami kota ini adalah suku
+                    Makassar atau Tu MANGKASARAK (paling dominan) dan pendatang dari orang-orang Bugis, Jawa, Mandar,
+                    Toraja,
+                    Sunda, Tionghoa dan lain-lain. </p>
+                <p>Kota Makassar merupakan pusat kegiatan ekonomi, pemerintahan, pendidikan, dan perdagangan di kawasan
+                    Indonesia Timur. Sebagai ibu kota Provinsi Sulawesi Selatan, Makassar memiliki peran strategis
+                    sebagai pintu gerbang utama yang menghubungkan wilayah timur dan barat Indonesia melalui jalur laut,
+                    udara, maupun darat. Perkembangan kota yang pesat menjadikan Makassar sebagai salah satu pusat
+                    pertumbuhan ekonomi nasional dengan berbagai aktivitas industri, jasa, dan perdagangan. Selain itu,
+                    Kota Makassar memiliki berbagai potensi wisata dan budaya, seperti Pantai Losari, Benteng Rotterdam,
+                    serta keberagaman budaya masyarakat lokal yang menjadi ciri khas kota ini. Dengan luas wilayah
+                    sekitar 175,77 km², Kota Makassar terbagi menjadi 15 kecamatan dan 153 kelurahan yang memiliki
+                    karakteristik wilayah serta perkembangan yang beragam.</p>
+            </div>
+        </div>
+        <!--Penduduk-->
+        <div class="card shadow mt-3" id="penduduk">
+            <div class="card-header">
+                <h6><i class="bi bi-people-fill"> </i>Penduduk</h6>
+            </div>
+            <div class="card-body">
+                <!-- tabel -->
+                <table class="table table-success table-striped">
+                    <tr>
+                        <th>No</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Jumlah</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Laki laki</td>
+                        <td>736.000 jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Perempuan</td>
+                        <td>7752.000 jiwa</td>
+                    <tr>
+                        <td>3</td>
+                        <td>Jumlah</td>
+                        <td>1.488.000 jiwa</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <!--Kecamatan-->
+        <div class="card shadow mt-3" id="kecamatan">
+            <div class="card-header">
+                <h6><i class="bi bi-list-task"></i> </i>Kecamatan</h6>
+            </div>
+            <div class="card-body">
+                <!--List Kecamatan -->
+                <ol>
+                    <li>Biringkanaya</li>
+                    <li>Kepulauan Sangkarrang</li>
+                    <li>Makassar</li>
+                    <li>Mamajang</li>
+                    <li>Mariso</li>
+                    <li>Manggala</li>
+                    <li>Rappocini</li>
+                    <li>Tamalate</li>
+                    <li>Wajo</li>
+                    <li>Ujung Tanah</li>
+                    <li>Bontoala</li>
+                    <li>Panakkokang</li>
+                    <li>Tamalanrea</li>
+                    <li>Ujung Pandang</li>
+                    <li>Tallo</li>
+
+                </ol>
+
+            </div>
+        </div>
+
+        <!--Sumber-->
+        <div class="card shadow mt-3" id="sumber">
+            <div class="card-header">
+                <h6><i class="bi bi-link-45deg"> </i>Sumber</h6>
+            </div>
+            <div class="card-body">
+                <!-- link -->
+                Sumber: <a href="https://id.wikipedia.org/wiki/Kota_Makassar" target="_blank"
+                    rel="noopener noreferrer">https://id.wikipedia.org/wiki/Kota_Makassar</a>
+            </div>
+        </div>
+        <!--Gambar-->
+        <div class="card shadow mt-3" id="--Gambar--">
+            <div class="card-header">
+                <h6><i class="bi bi-camera-fill"> </i>Gambar</h6>
+            </div>
+            <div class="card-body">
+                <!-- image -->
+                <img src="https://www.oyorooms.com/travel-guide/id/wp-content/uploads/sites/6/2022/10/Recommended-5-Tempat-Wisata-Kekinian-Makassar.jpg"
+                    width="560">
+
+            </div>
+            <div class="card-body">
+                <!-- video -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Br6nx5FXknI?si=r_sZB8MG0ScjrKwd"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Info</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>Meylita Anjarwati</td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td>:</td>
+                            <td>25/557850/SV/26247</td>
+                        </tr>
+                        <tr>
+                            <td>Kelas</td>
+                            <td>:</td>
+                            <td>PGWEB B</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
